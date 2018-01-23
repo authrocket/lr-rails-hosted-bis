@@ -1,24 +1,35 @@
-# README
+# AuthRocket sample Rails app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Logins Quickstart
 
-Things you may want to cover:
+This sample shows a complete example of using [AuthRocket](https://authrocket.com/) with Rails.
 
-* Ruby version
+It is intended as a companion to the help doc at https://authrocket.com/docs/ruby/rails.
 
-* System dependencies
 
-* Configuration
+#### Sample .env for Foreman/Heroku
 
-* Database creation
+```
+AUTHROCKET_JWT_SECRET=jsk_SAMPLE
+AUTHROCKET_LOGIN_URL=https://myapp.e1.loginrocket.com/
+# and optionally:
+AUTHROCKET_API_KEY=ko_SAMPLE
+AUTHROCKET_URL=https://api-e1.authrocket.com/v1/
+AUTHROCKET_REALM=rl_SAMPLE
+```
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+---
 
-* Deployment instructions
+#### Bugs, questions, etc.
 
-* ...
+If you have questions about AuthRocket, about integration with your own app, etc., please contact us via our website.
+
+Please limit use of GitHub issues to bugs in the sample app itself and pull requests.
+
+---
+
+Copyright Notioneer, Inc.
+
+License: MIT
